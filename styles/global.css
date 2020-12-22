@@ -94,5 +94,45 @@ staff-calendar
 unit-calendar
 -------------------- */
 .unit-calendar .fc .fc-view-harness-active > .fc-view {
-  bottom: 235px;
+  /* bottom: 235px; */
+}
+
+
+/* --------------------
+staff-shift
+-------------------- */
+.staff-shift .box {
+  text-align: center;
+  width: 100%;
+}
+.staff-shift .box .pm {
+  border-top: 1px dotted #ddd;
+}
+.staff-shift .fc-daygrid-day-bg {
+  display: none;
+}
+
+/* --------------------
+medical-day-setting
+-------------------- */
+
+.medical-day-setting .box {
+  text-align: center;
+  width: 100%;
+}
+
+.medical-day-setting .box .label {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.fc-daygrid-day-bg {
+  display: none;
+}
+
+.medical-day-setting .fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events {
+  position: relative;
+  min-height: 6.5em;
 }
