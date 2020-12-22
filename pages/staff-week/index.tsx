@@ -9,7 +9,14 @@ import "@fullcalendar/timegrid/main.css";
 import jaLocale from '@fullcalendar/core/locales/ja' // 日本語に対応させるために読み込む
 
 
-const events = [{ title: "野原さんの診療", start: "2020-12-21T12:30:00", end: "2020-12-21T13:30:00"}] //設定できるのは指定されたオプションだけ
+const events = [
+  {  title: "野原さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台1"},
+  {  title: "山田さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台2"},
+  {  title: "佐藤さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台3"},
+  {  title: "田中さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台4"},
+  {  title: "松本さんの診療", start: "2020-12-22T13:30:00", end: "2020-12-22T14:30:00", memo: "aaa", unit: "診察台3"},
+  {  title: "浜田さんの診療", start: "2020-12-22T13:30:00", end: "2020-12-22T14:30:00", memo: "aaa", unit: "診察台4"},
+] //設定できるのは指定されたオプションだけ
 
 const EventComponent = (arg: any) => {
   return (
