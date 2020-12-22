@@ -11,7 +11,7 @@ import jaLocale from '@fullcalendar/core/locales/ja' // 日本語に対応させ
 
 const events = [{ title: "野原さんの診療", start: "2020-12-21T12:30:00", end: "2020-12-21T13:30:00"}] //設定できるのは指定されたオプションだけ
 
-const EventComponent = (arg: any) => {
+const EventComponent = () => {
   return (
     <div className="box">
       <div className="am">
@@ -57,7 +57,7 @@ const StaffPage = () => (
           next:    '後',
         }}
         initialEvents={events}
-        eventContent={(arg: EventContentArg) => EventComponent(arg)}
+        eventContent={() => EventComponent()}
         dateClick={(arg) => {alert(`${arg.dateStr}をクリック！ここの画面で使う必要があるかは不明`)}}
       />
     </div>
