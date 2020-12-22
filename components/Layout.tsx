@@ -31,6 +31,11 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
           <a>スタッフ週間予約表</a>
         </Link>        
       </li>
+      <li>
+        <Link href="/unit">
+          <a>ユニット予約表</a>
+        </Link>        
+      </li>
     </ul>
     {children}
   </div>
