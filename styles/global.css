@@ -1,0 +1,93 @@
+/* -----------------------
+Font
+----------------------- */
+/* $def_font: source-han-serif-japanese, serif;
+$gothic_font:  a-otf-midashi-go-mb31-pr6n, sans-serif; */
+
+/* -----------------------
+Color
+----------------------- */
+/* $c_white: #ffffff;
+$c_text: #000000;
+$c_base: #ffffff;
+$c_primary: #000000;
+$c_secondary: #4d4d4d;
+$c_accent: #ff0000;
+$c_danger: #ff0000;
+$c_black:#000000;
+$c_link: $c_primary;
+
+$footer_bg: rgba(249,249,251,var(--bg-opacity)); */
+
+
+/* -----------------------
+Color
+----------------------- */
+/* $border_primary: #cccccc; */
+
+/* -----------------------
+Breackpoint
+----------------------- */
+/* $bp_map: (
+    sm: 576px,
+    md: 750px,
+    lg: 992px,
+    lgs: 1050px,
+    xl: 1250px
+) !default; */
+
+/* $min: (
+    sm: '(min-width:' map-get($bp_map, sm) ')',
+    md: '(min-width:' map-get($bp_map, md) ')',
+    lg: '(min-width:' map-get($bp_map, lg) ')',
+    lgs: '(min-width:' map-get($bp_map, lgs) ')',
+    xl: '(min-width:' map-get($bp_map, xl) ')',
+); */
+
+/* $max: (
+    sm: '(max-width:' map-get($bp_map, sm) ')',
+    md: '(max-width:' map-get($bp_map, md) ')',
+    lg: '(max-width:' map-get($bp_map, lg) ')',
+    lgs: '(max-width:' map-get($bp_map, lgs) ')',
+    xl: '(max-width:' map-get($bp_map, xl) ')',
+); */
+
+/* -----------------------
+Content Size
+----------------------- */
+/* $content_size: (
+    sm: 800px,
+    md: 960px,
+    lg: 1100px,
+    xl: 1280px
+) !default; */
+
+/* --------------------
+calendar-global
+-------------------- */
+
+/* .fc-day-sun {
+  background: #00000065;
+}
+.fc-day-sat {
+  background: #00000065;
+}
+
+.fc-daygrid-day-number {
+  margin: 0 auto 0 0;
+} */
+
+/* --------------------
+staff-calendar
+-------------------- */
+
+/* .column-label {
+  border: 1px solid #ddd;
+  display: block;
+} 
+
+.fc-timegrid-slots tr {
+  height: 50px;
+  min-height: 50px;
+  
+} */
