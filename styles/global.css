@@ -77,17 +77,22 @@ calendar-global
   margin: 0 auto 0 0;
 }
 
+.fc-timegrid-slots tr {
+  height: 50px;
+}
+
 /* --------------------
 staff-calendar
 -------------------- */
 
-.column-label {
+.staff-calendar .column-label {
   border: 1px solid #ddd;
   display: block;
 } 
 
-.fc-timegrid-slots tr {
-  height: 50px;
-  min-height: 50px;
+/* --------------------
+unit-calendar
+-------------------- */
+.unit-calendar .fc .fc-view-harness-active > .fc-view {
+  bottom: 235px;
 }
-
