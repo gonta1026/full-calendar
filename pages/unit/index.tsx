@@ -9,12 +9,12 @@ import "@fullcalendar/timegrid/main.css";
 import jaLocale from '@fullcalendar/core/locales/ja' // 日本語に対応させるために読み込む
 
 const events = [
-  { id: 0, title: "野原さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台1"},
-  { id: 1, title: "山田さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台2"},
-  { id: 2, title: "佐藤さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台3"},
-  { id: 3, title: "田中さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台4"},
-  { id: 4, title: "松本さんの診療", start: "2020-12-22T13:30:00", end: "2020-12-22T14:30:00", memo: "aaa", unit: "診察台3"},
-  { id: 5, title: "浜田さんの診療", start: "2020-12-22T13:30:00", end: "2020-12-22T14:30:00", memo: "aaa", unit: "診察台4"},
+  {  title: "野原さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台1"},
+  {  title: "山田さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台2"},
+  {  title: "佐藤さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台3"},
+  {  title: "田中さんの診療", start: "2020-12-22T12:30:00", end: "2020-12-22T13:30:00", memo: "aaa", unit: "診察台4"},
+  {  title: "松本さんの診療", start: "2020-12-22T13:30:00", end: "2020-12-22T14:30:00", memo: "aaa", unit: "診察台3"},
+  {  title: "浜田さんの診療", start: "2020-12-22T13:30:00", end: "2020-12-22T14:30:00", memo: "aaa", unit: "診察台4"},
 ] //設定できるのは指定されたオプションだけ
 
 
@@ -52,9 +52,9 @@ const StaffPage = () => (
           end: 'prev,today,next'
         }}
         buttonText={{
-          prev:    '前',
-          today: "当月",
-          next:    '後',
+          prev:    '前日',
+          today: "本日",
+          next:    '翌日',
         }}
         initialEvents={events}
         eventContent={(arg: EventContentArg) => EventComponent(arg)}
