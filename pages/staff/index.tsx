@@ -1,5 +1,5 @@
 import Layout from "../../components/Layout";
-import FullCalendar from "@fullcalendar/react";
+import FullCalendar, { EventContentArg } from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
 import interactionPlugin from "@fullcalendar/interaction";
@@ -47,7 +47,7 @@ const StaffPage = () => (
           next:    '後',
         }}
         initialEvents={events}
-        eventContent={(arg: any) => EventComponent(arg)}
+        eventContent={(arg: EventContentArg) => EventComponent(arg)}
         dateClick={(arg) => {alert(`${arg.dateStr}をクリック！ここの画面で使う必要があるかは不明`)}}
       />
     </div>
