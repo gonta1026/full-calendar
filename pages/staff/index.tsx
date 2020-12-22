@@ -47,7 +47,7 @@ const StaffPage = () => (
           next:    '後',
         }}
         initialEvents={events}
-        eventContent={(arg: EventContentArg) => EventComponent(arg)}
+        eventContent={(arg: any) => EventComponent(arg)}
         dateClick={(arg) => {alert(`${arg.dateStr}をクリック！ここの画面で使う必要があるかは不明`)}}
       />
     </div>
